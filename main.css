@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container-update{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.form-group{
+    margin-top: 20px;
+    width: 370px;
+    height: 470px;
+    padding: 20px 40px 30px;
+    background-color: white;
+    padding-right: 80px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding-top: 20px;
+}  
+.form-group h2{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.form-group label{
+    display: block;
+    font-family: sans-serif;
+    text-transform: capitalize;
+
+}
+.form-group input{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #e0b9b9;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 10px;
+}
+.form-group select{
+    width: 390px;
+    padding: 10px;
+    border: 1px solid #e0b9b9;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.form-btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 15px;
+}
+.form-btn button{
+    border: none;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #df6b6b;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.error{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+/************* report page*****************/
+.container-report{
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+.btn-group{
+    margin-top: 100px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding-bottom: 80px;
+}
+.btn-group button{
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #df6b6b;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.btn-group h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+/********************date view ***********/
+.dateview{
+    width: 100%;
+    height: 100%;
+}
+.container-dateview{
+    width: 100%;
+    height: 150px;
+}
+.container-tabel{
+    width: 100%;
+
+}
+.container-dateview h1{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container-dateview label{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.container-dateview input,select{
+    width: 200px;
+    border: 1px solid #e0b9b9;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    height: 35px;
+
+}
+.container-dateview button{
+    border: none;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #df6b6b;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.dateview table{
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.dateview tr{
+    border: 1px solid black;
+}
+.dateview th{ 
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    border-color: black ;
+    color: white;
+}
+.dateview td{
+    height: 35px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center
+}
+/************** view page**********************/
+.view{
+    width: 100%;
+    height: 100%;
+  }
+  .view table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color:black ;
+    
+  }
+  .view table th{
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+  }
+  .view table td{
+    height: 35px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+  }

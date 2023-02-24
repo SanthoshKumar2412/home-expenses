@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(img.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+#heading h1{
+    color: white;
+    margin-top: 150px;
+    margin-left: 230px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+#proverb p{
+    margin-left: 230px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 5px;
+}
+.main-button{
+    margin-left: 230px;
+}
+.main-button button{
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #df6b6b;
+    color: white;
+    text-transform: capitalize;
+}
+
+
